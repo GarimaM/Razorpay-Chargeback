@@ -1,0 +1,332 @@
+
+		*{
+			margin: 0px;
+			padding: 0px;
+			box-sizing: content-box;
+			font-family: 'Lato', sans-serif;
+		}
+		header{
+			background: linear-gradient(83deg,#5181ff,#0656bc);
+			padding:15px 40px 10px 40px;
+		}
+		.logo{
+			width: 122px;
+			height:26px;
+			float: left;
+			margin-right: 10px;
+		}
+		#head:after{
+			content: "";
+			display: table;
+			clear: both;
+		}
+		#head{
+			margin-bottom: 50px;
+		}
+		ul{#0406C7
+			list-style-type: none;
+			text-align: center;
+			font-size: 13px;
+		}
+		.nav1 li{
+			float: left;
+			display: inline-block;
+			width: 65px;	
+			margin: 10px 5px 0px 0px;
+		}
+		.nav1 a{
+			display: block;
+			color: white;
+			text-decoration: none;
+		}
+		.nav2 li{
+			float: right;
+			display: inline-block;
+			width: 50px;
+			line-height: 20px;
+			margin: 10px 5px 0px 0px;
+		}
+		.nav2 a{
+			display: block;
+			color: white;
+			text-decoration: none;
+			padding: 5px;
+		}
+		.signup a{
+			border:1px solid #D4D4D4;
+			padding: 5px;
+			border-radius: 5px;
+			width: 70px;
+		}
+		.signup a:hover{
+			border:1px solid white;
+		}
+		.content1{
+			padding: 30px;
+			color: white;
+		}
+		.text{
+			float: left;
+			margin: 10px 5px 5px 110px;
+			font-family: sans-serif;
+			font-size: 18px;
+		}
+		.text h1{
+			margin-bottom: 10px;
+			font-size: 35px;
+		}
+		.card{
+			float: right;
+			width: 350px;
+			height: 350px;
+			margin: -50px 50px 0px 10px;
+		}
+		.content1:after{
+			content: "";
+			display: table;
+			clear: both;
+		}
+		.learn_more{
+			color: white;
+			background-color: rgba(0,0,0,0);
+			margin-top: 20px;
+			font-size: 18px;
+			box-shadow: none !important;
+			border:1px solid #D4D4D4;
+			padding: 7px;
+			border-radius: 5px;
+			width:130px;
+		}
+		.learn_more:hover{
+			border:1px solid white;
+		}
+		.article1{
+			margin: 100px 80px 50px 170px;
+			width: 35%;
+			color: #6D6B6B;
+			float: left;
+			line-height: 25px;
+		}
+		.help{
+			position: fixed;
+			bottom: 0;
+			right: 7px;
+			width: 27%;
+			background-color: #ECECEC;
+			border: 0.5px solid #DCDADA;
+			z-index: 150;
+			box-shadow: -2px -2px 15px #6D6B6B;
+			}
+		.input{
+			padding: 5px;
+		}
+		form{
+			margin-bottom: 170px;
+		}
+		.form-heading{
+			text-align: center;
+			background-color: white;
+			padding: 5px;
+			font-size: 16px;
+		}
+		.div{
+			padding: 15px;
+			display: none;
+		}
+		.image{
+			background-image: url(https://cdn.razorpay.com/images/chargeback1@2x.png);
+			background-size: 316px 423px;
+			width: 316px;
+			height: 423px;
+			float: right;
+			margin-top: 170px;
+			margin-right: 100px;
+		}
+		.image2{
+			background-image: url(https://cdn.razorpay.com/images/chargeback2@2x.png);
+			background-size: 439px 300px;
+			width: 478px;
+			height: 478px;
+			float: right;
+			background-repeat: no-repeat;
+			margin-top: 150px;
+			margin-right: 70px;
+
+		}
+		.article2{
+			clear: both;
+			color: #6D6B6B;
+			line-height: 25px;
+		}
+		.resolve{
+			text-align: center;
+			margin: 0px 100px 10px 150px;
+		}
+		.resolve2{
+			margin: 100px 80px 50px 170px;
+			width: 35%;
+			float: left;
+			font-size: 15px;
+		}
+		.resolve h2{
+			margin-top: 50px;
+		}
+		.resolve2 h2{
+			font-size: 20px;
+		}
+		#chargeback-video {
+    		width: 270px;
+    		position: relative;
+    		margin: auto;
+    		float: right;
+    		margin: 100px 150px 50px 0px;
+		}
+		#mobile-mockup {
+    		position: relative;
+    		z-index: 100;
+    		width: 100%;
+		}
+		#mobile-video {
+    		width: 88%;
+    		position: absolute;
+    		left: 16px;
+    		top: 69px;
+		}
+		.article-footer{
+			clear: both;
+			text-align: center;
+			text-align: center;
+			margin: 10px 100px 10px 150px;
+		}
+		.article3{
+			text-align: center;
+			margin: 50px 80px 50px 150px;
+			color: #6D6B6B;
+			}
+			.avoid-chargeback h2{
+				margin-bottom: 20px;
+				margin-top: 30px;
+			}
+			.avoid-chargeback img{
+				height: 50px;
+				width: 50px;
+				margin-top: 50px;
+		}
+			.return-policy, .clear-communication, .proof{
+			width: 30%;
+			float: left;
+			margin-right: 20px;
+			margin-bottom:60px;
+		}
+		footer{
+			color: white;
+			clear: both;
+		}
+		
+		.footer1{
+			
+			text-align: center;
+			background: linear-gradient(83deg,#5181ff,#0656bc);
+			padding: 50px;
+			color: white;
+		}
+		footer .sign-up{
+			background-color: white;
+			color: #584E4E;
+			box-shadow: none !important;
+			border:1px solid #D4D4D4;
+			padding: 7px;
+			width: 70px;
+			margin-top: 30px;
+			font-size: 14px;
+		}
+		.page_footer{
+			background-color: #3a3f52;
+			padding: 60px;
+			padding-bottom: 20px;
+			font-size: 14px;
+		}
+		footer .pci{
+			width: 77px;
+			height:30px;
+			margin-right: 15px;
+			margin-top: 10px;
+		}
+		.partner{
+			width: 77px;
+			margin-right: 15px;
+		}
+		.digicert{
+			height: 35px;
+		}
+		.footer3 .product, .footer4 .support, .footer5 .other, .footer6 .contact{
+			list-style: none;
+			text-align: left;
+		}
+		.product a, .support a, .other a, .contact a{
+			color: white;
+			text-decoration: none;
+		}
+		.footer2{
+			width: 30%;
+			float: left;
+			margin-right: 20px;
+		}
+		.footer3, .footer4, .footer5, .footer6{
+			width: 11%;
+			float: left;
+			margin-right: 20px;
+		}
+		.footer6{
+			width: 25%;
+			float: left;
+			margin-right: 20px;
+			margin-bottom: 40px;
+		}
+
+		.page_footer:after{
+			content: "";
+			display: table;
+			clear: both;
+		}
+		.footer6 input{
+			display: line-block;
+			height: 20px;
+			margin-top: 10px;
+		}
+		.footer6 button{
+			display: line-block;
+			height: 20px;
+			width: 70px;
+			background-color: #7266ba;
+			padding: 7px;
+			color: white;
+			border: none;
+		}
+		.social-icons{
+			margin-top: 30px;
+		}
+		.social-icons img{
+			margin-right: 20px;
+			height: 16px;
+			width: 16px;
+		}
+		.line-break{
+			clear: both;
+			margin-top: 30px;
+			margin-bottom: 30px;
+			margin-left: -50px;
+			margin-right: -50px;
+			border-top: 1px solid rgba(153,153,153,0.2);
+		}
+		.rzp-logo{
+			float: left;
+    		width: 125px;
+    		height: 32px;
+    		background: url(https://razorpay.com/images/logo.png) no-repeat center;
+    		background-size: contain; 
+		}
+		.copyright{
+			float: right;
+		}
+
